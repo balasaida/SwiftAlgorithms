@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF514B3120ABB653006282B0 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF514B3020ABB653006282B0 /* Stack.swift */; };
+		CF514B3320ABB7F5006282B0 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF514B3220ABB7F5006282B0 /* Queue.swift */; };
 		CF77F90920AB76DB00AD49E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77F90820AB76DB00AD49E0 /* AppDelegate.swift */; };
 		CF77F90B20AB76DB00AD49E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77F90A20AB76DB00AD49E0 /* ViewController.swift */; };
 		CF77F90E20AB76DB00AD49E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF77F90C20AB76DB00AD49E0 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		CF77F91320AB76DB00AD49E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF77F91120AB76DB00AD49E0 /* LaunchScreen.storyboard */; };
 		CF77F91E20AB76DB00AD49E0 /* SwiftAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77F91D20AB76DB00AD49E0 /* SwiftAlgorithmsTests.swift */; };
 		CF77F92920AB76DB00AD49E0 /* SwiftAlgorithmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77F92820AB76DB00AD49E0 /* SwiftAlgorithmsUITests.swift */; };
+		CFE7997720ADF16A00B81543 /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE7997620ADF16A00B81543 /* QueueTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF514B3020ABB653006282B0 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		CF514B3220ABB7F5006282B0 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		CF77F90520AB76DB00AD49E0 /* SwiftAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF77F90820AB76DB00AD49E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF77F90A20AB76DB00AD49E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		CF77F92420AB76DB00AD49E0 /* SwiftAlgorithmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlgorithmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF77F92820AB76DB00AD49E0 /* SwiftAlgorithmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgorithmsUITests.swift; sourceTree = "<group>"; };
 		CF77F92A20AB76DB00AD49E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE7997620ADF16A00B81543 /* QueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF514B2F20ABB63E006282B0 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				CF514B3020ABB653006282B0 /* Stack.swift */,
+				CF514B3220ABB7F5006282B0 /* Queue.swift */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
 		CF77F8FC20AB76DB00AD49E0 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +112,7 @@
 		CF77F90720AB76DB00AD49E0 /* SwiftAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
+				CF514B2F20ABB63E006282B0 /* Algorithms */,
 				CF77F90820AB76DB00AD49E0 /* AppDelegate.swift */,
 				CF77F90A20AB76DB00AD49E0 /* ViewController.swift */,
 				CF77F90C20AB76DB00AD49E0 /* Main.storyboard */,
@@ -112,6 +128,7 @@
 			children = (
 				CF77F91D20AB76DB00AD49E0 /* SwiftAlgorithmsTests.swift */,
 				CF77F91F20AB76DB00AD49E0 /* Info.plist */,
+				CFE7997620ADF16A00B81543 /* QueueTests.swift */,
 			);
 			path = SwiftAlgorithmsTests;
 			sourceTree = "<group>";
@@ -260,7 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF77F90B20AB76DB00AD49E0 /* ViewController.swift in Sources */,
+				CF514B3120ABB653006282B0 /* Stack.swift in Sources */,
 				CF77F90920AB76DB00AD49E0 /* AppDelegate.swift in Sources */,
+				CF514B3320ABB7F5006282B0 /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF77F91E20AB76DB00AD49E0 /* SwiftAlgorithmsTests.swift in Sources */,
+				CFE7997720ADF16A00B81543 /* QueueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
