@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF3802F620B773B200024655 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3802F520B773B200024655 /* BinarySearch.swift */; };
 		CF514B3120ABB653006282B0 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF514B3020ABB653006282B0 /* Stack.swift */; };
 		CF514B3320ABB7F5006282B0 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF514B3220ABB7F5006282B0 /* Queue.swift */; };
+		CF73478A20B315780068DA61 /* BitSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF73478920B315780068DA61 /* BitSet.swift */; };
+		CF73479520B4D86A0068DA61 /* FixedSizeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF73479420B4D86A0068DA61 /* FixedSizeArray.swift */; };
 		CF77F90920AB76DB00AD49E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77F90820AB76DB00AD49E0 /* AppDelegate.swift */; };
 		CF77F90B20AB76DB00AD49E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77F90A20AB76DB00AD49E0 /* ViewController.swift */; };
 		CF77F90E20AB76DB00AD49E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF77F90C20AB76DB00AD49E0 /* Main.storyboard */; };
@@ -17,6 +20,7 @@
 		CF77F91E20AB76DB00AD49E0 /* SwiftAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77F91D20AB76DB00AD49E0 /* SwiftAlgorithmsTests.swift */; };
 		CF77F92920AB76DB00AD49E0 /* SwiftAlgorithmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77F92820AB76DB00AD49E0 /* SwiftAlgorithmsUITests.swift */; };
 		CFE7997720ADF16A00B81543 /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE7997620ADF16A00B81543 /* QueueTests.swift */; };
+		CFE7997920AF535300B81543 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE7997820AF535300B81543 /* Array2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF3802F520B773B200024655 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		CF514B3020ABB653006282B0 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		CF514B3220ABB7F5006282B0 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		CF73478920B315780068DA61 /* BitSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitSet.swift; sourceTree = "<group>"; };
+		CF73479420B4D86A0068DA61 /* FixedSizeArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSizeArray.swift; sourceTree = "<group>"; };
 		CF77F90520AB76DB00AD49E0 /* SwiftAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF77F90820AB76DB00AD49E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF77F90A20AB76DB00AD49E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +60,7 @@
 		CF77F92820AB76DB00AD49E0 /* SwiftAlgorithmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgorithmsUITests.swift; sourceTree = "<group>"; };
 		CF77F92A20AB76DB00AD49E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFE7997620ADF16A00B81543 /* QueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
+		CFE7997820AF535300B81543 /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,13 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CF514B2F20ABB63E006282B0 /* Algorithms */ = {
+		CF514B2F20ABB63E006282B0 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
 				CF514B3020ABB653006282B0 /* Stack.swift */,
 				CF514B3220ABB7F5006282B0 /* Queue.swift */,
+				CFE7997820AF535300B81543 /* Array2D.swift */,
+				CF73478920B315780068DA61 /* BitSet.swift */,
+				CF73479420B4D86A0068DA61 /* FixedSizeArray.swift */,
+				CF3802F520B773B200024655 /* BinarySearch.swift */,
 			);
-			path = Algorithms;
+			path = DataStructures;
 			sourceTree = "<group>";
 		};
 		CF77F8FC20AB76DB00AD49E0 = {
@@ -112,7 +124,7 @@
 		CF77F90720AB76DB00AD49E0 /* SwiftAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
-				CF514B2F20ABB63E006282B0 /* Algorithms */,
+				CF514B2F20ABB63E006282B0 /* DataStructures */,
 				CF77F90820AB76DB00AD49E0 /* AppDelegate.swift */,
 				CF77F90A20AB76DB00AD49E0 /* ViewController.swift */,
 				CF77F90C20AB76DB00AD49E0 /* Main.storyboard */,
@@ -276,10 +288,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF3802F620B773B200024655 /* BinarySearch.swift in Sources */,
+				CF73478A20B315780068DA61 /* BitSet.swift in Sources */,
 				CF77F90B20AB76DB00AD49E0 /* ViewController.swift in Sources */,
 				CF514B3120ABB653006282B0 /* Stack.swift in Sources */,
 				CF77F90920AB76DB00AD49E0 /* AppDelegate.swift in Sources */,
+				CF73479520B4D86A0068DA61 /* FixedSizeArray.swift in Sources */,
 				CF514B3320ABB7F5006282B0 /* Queue.swift in Sources */,
+				CFE7997920AF535300B81543 /* Array2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rogers.MyPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
