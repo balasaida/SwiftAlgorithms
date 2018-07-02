@@ -8,24 +8,27 @@
 
 import Foundation
 
-struct BinarySearch<T> {
+extension Array where Element: Comparable {
     
-    func binarySearch<T: Comparable>(array: [T], key: T) -> Int? {
-        var lowerBound = 0
-        var upperBound = array.count
+    func binarySearch(key: Element) -> Index? {
+        guard !self.isEmpty else {
+            return nil
+        }
+        var lowerIndex = 0
+        var upperIndex = self.count
         
-        while lowerBound < upperBound {
-            let midBound = (lowerBound + upperBound) / 2
-            if array[midBound] == key {
-                return midBound
-            }
-            if array[midBound] < key {
-                lowerBound = midBound + 1
+        while  lowerIndex < upperIndex {
+            let midIndex = index(lowerIndex, offsetBy: distance(from: lowerIndex, to: upperIndex)/2)
+            if self[midIndex] == key {
+                return midIndex
+            } else if self[midIndex] > key {
+                lowerIndex = index(after: midIndex)
             } else {
-                upperBound = midBound
+                upperIndex = midIndex
             }
         }
-        return 0
+        
+        return nil
     }
 }
 
