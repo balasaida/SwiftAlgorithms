@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C618316120F9164A00B30508 /* LinkedLitst.swift in Sources */ = {isa = PBXBuildFile; fileRef = C618316020F9164A00B30508 /* LinkedLitst.swift */; };
 		CF3802F620B773B200024655 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3802F520B773B200024655 /* BinarySearch.swift */; };
 		CF514B3120ABB653006282B0 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF514B3020ABB653006282B0 /* Stack.swift */; };
 		CF514B3320ABB7F5006282B0 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF514B3220ABB7F5006282B0 /* Queue.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C618316020F9164A00B30508 /* LinkedLitst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedLitst.swift; sourceTree = "<group>"; };
 		CF3802F520B773B200024655 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		CF514B3020ABB653006282B0 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		CF514B3220ABB7F5006282B0 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				CF73478920B315780068DA61 /* BitSet.swift */,
 				CF73479420B4D86A0068DA61 /* FixedSizeArray.swift */,
 				CF3802F520B773B200024655 /* BinarySearch.swift */,
+				C618316020F9164A00B30508 /* LinkedLitst.swift */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -222,7 +225,7 @@
 				TargetAttributes = {
 					CF77F90420AB76DB00AD49E0 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					CF77F91820AB76DB00AD49E0 = {
 						CreatedOnToolsVersion = 9.2;
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C618316120F9164A00B30508 /* LinkedLitst.swift in Sources */,
 				CF3802F620B773B200024655 /* BinarySearch.swift in Sources */,
 				CF73478A20B315780068DA61 /* BitSet.swift in Sources */,
 				CF77F90B20AB76DB00AD49E0 /* ViewController.swift in Sources */,
@@ -462,13 +466,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 383QL3B484;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftAlgorithms/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rogers.MyPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -479,13 +484,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 383QL3B484;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftAlgorithms/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rogers.MyPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

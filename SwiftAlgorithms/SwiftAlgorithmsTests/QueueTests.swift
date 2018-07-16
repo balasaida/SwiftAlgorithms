@@ -43,7 +43,25 @@ class QueueTests: XCTestCase {
         print(queue.efficientDeque())
         
         print(queue)
-
+    }
+    
+    func testLinkedList() {
+        var list = LinkedList<String>()
+        list.append(value: "Hello")
+        list.append(value: "world")
+        
+        print(list.isEmpty)
+        print(list.count)
+        
+        list.remove(at: 0)
+        print(list.count)
+        
+        print(list.head?.value)
+        
+        list.append(value: "new")
+        print(list.count)
+        print(list.last)
+        
         
     }
 }

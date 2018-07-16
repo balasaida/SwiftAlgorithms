@@ -8,19 +8,19 @@
 
 import Foundation
 
-struct Stack<T> {
+struct Stack<Element> {
     
-    fileprivate var items: [T] = []
+    fileprivate var items: [Element] = []
     
-    mutating func push(newItem: T) {
+    mutating func push(newItem: Element) {
         items.append(newItem)
     }
     
-    mutating func pop() -> T? {
+    mutating func pop() -> Element? {
         return items.popLast()
     }
     
-    var peek: T? {
+    var peek: Element? {
         return items.last
     }
 }
