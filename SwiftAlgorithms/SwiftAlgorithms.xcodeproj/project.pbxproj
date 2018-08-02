@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C618316120F9164A00B30508 /* LinkedLitst.swift in Sources */ = {isa = PBXBuildFile; fileRef = C618316020F9164A00B30508 /* LinkedLitst.swift */; };
+		C62DE8982107C75400647A2B /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62DE8972107C75400647A2B /* Sort.swift */; };
 		CF3802F620B773B200024655 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3802F520B773B200024655 /* BinarySearch.swift */; };
 		CF514B3120ABB653006282B0 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF514B3020ABB653006282B0 /* Stack.swift */; };
 		CF514B3320ABB7F5006282B0 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF514B3220ABB7F5006282B0 /* Queue.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		C618316020F9164A00B30508 /* LinkedLitst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedLitst.swift; sourceTree = "<group>"; };
+		C62DE8972107C75400647A2B /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		CF3802F520B773B200024655 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		CF514B3020ABB653006282B0 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		CF514B3220ABB7F5006282B0 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				CF73479420B4D86A0068DA61 /* FixedSizeArray.swift */,
 				CF3802F520B773B200024655 /* BinarySearch.swift */,
 				C618316020F9164A00B30508 /* LinkedLitst.swift */,
+				C62DE8972107C75400647A2B /* Sort.swift */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C618316120F9164A00B30508 /* LinkedLitst.swift in Sources */,
+				C62DE8982107C75400647A2B /* Sort.swift in Sources */,
 				CF3802F620B773B200024655 /* BinarySearch.swift in Sources */,
 				CF73478A20B315780068DA61 /* BitSet.swift in Sources */,
 				CF77F90B20AB76DB00AD49E0 /* ViewController.swift in Sources */,

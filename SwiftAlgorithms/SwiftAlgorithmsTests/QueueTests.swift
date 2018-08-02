@@ -62,6 +62,9 @@ class QueueTests: XCTestCase {
         print(list.count)
         print(list.last)
         
+        var array = [2, 3, 7, 6, 5]
+        var test = array.applyInsertionSort()
+        
         
     }
 }
